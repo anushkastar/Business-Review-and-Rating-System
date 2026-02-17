@@ -1,48 +1,74 @@
-# Review Platform (MERN)
+npm run server
 
-Crowdsourced review platform with **3 roles**: User, Business, Admin.
+> review-platform@1.0.0 server
+> node server/index.js
 
-- **User**: Review and rate businesses, upload photos, view own reviews and business avg ratings.
-- **Business**: Add business (name, photo, location), list my businesses with avg rating.
-- **Admin**: Approve businesses and approve/reject user reviews.
+Server running at http://localhost:3001
+Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.8ahzug5.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+  errno: undefined,
+  code: 'ECONNREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.8ahzug5.mongodb.net'
+}
+PS C:\Users\vipul\OneDrive\Desktop\IF> npm i mongodb
 
-## Stack
+added 4 packages, changed 3 packages, and audited 156 packages in 6s
 
-- **Frontend**: React, Tailwind CSS, React Router, Vite
-- **Backend**: Node, Express, JWT, bcrypt, multer, Cloudinary
-- **Database**: MongoDB (Mongoose)
+25 packages are looking for funding
+  run `npm fund` for details
 
-## Setup
+found 0 vulnerabilities
+PS C:\Users\vipul\OneDrive\Desktop\IF> npm run server
 
-1. **Install dependencies**
-   ```bash
-   npm install
-   cd client && npm install && cd ..
-   ```
+> review-platform@1.0.0 server
+> node server/index.js
 
-2. **Environment**
-   - Copy `.env.example` to `.env`
-   - Set `MONGO_URI` (default: `mongodb://127.0.0.1:27017/review-platform`)
-   - Set `JWT_SECRET`
-   - For photo uploads, set Cloudinary: `CLOUDINARY_CLOUD_NAME`, `CLOUDINARY_API_KEY`, `CLOUDINARY_API_SECRET`
+Server running at http://localhost:3001
+Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.8ahzug5.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+  errno: undefined,
+  code: 'ECONNREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.8ahzug5.mongodb.net'
+}
+PS C:\Users\vipul\OneDrive\Desktop\IF> npm run server
 
-3. **Seed (optional)**
-   ```bash
-   npm run seed
-   ```
-   Creates: admin@example.com / admin123, business@example.com / business123, user@example.com / user123.
+> review-platform@1.0.0 server
+> node server/index.js
 
-4. **Run**
-   ```bash
-   npm run dev
-   ```
-   - API: http://localhost:3001
-   - Client: http://localhost:5173 (proxies /api to backend)
+Server running at http://localhost:3001
+Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.tnds7mj.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+  errno: undefined,
+  code: 'ECONNREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.tnds7mj.mongodb.net'
+}
+PS C:\Users\vipul\OneDrive\Desktop\IF> npm run server
 
-## Pages
+> review-platform@1.0.0 server
+> node server/index.js
 
-- **Home**: Browse businesses with filters (category, location) and sort (rating, review count).
-- **Business detail**: View business photo, location, avg rating, reviews; users can submit review + photos.
-- **My Reviews** (user): List of reviewed businesses with rating and approval status.
-- **My Businesses** (business): Add business (name, photo, location, category), list with avg rating.
-- **Admin**: Dashboard counts; approve/reject businesses; approve/reject reviews.
+Server running at http://localhost:3001
+Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.tnds7mj.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+  errno: undefined,
+  code: 'ECONNREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.tnds7mj.mongodb.net'
+}
+PS C:\Users\vipul\OneDrive\Desktop\IF> ^C
+PS C:\Users\vipul\OneDrive\Desktop\IF> npm run server
+
+> review-platform@1.0.0 server
+> node server/index.js
+
+Server running at http://localhost:3001
+Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.tnds7mj.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:294:17) {
+  errno: undefined,
+  code: 'ECONNREFUSED',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster0.tnds7mj.mongodb.net'
+}
